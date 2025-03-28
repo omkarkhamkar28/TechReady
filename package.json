@@ -1,0 +1,22 @@
+{
+  "name": "techready",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "frontend": "cd Frontend && npm start",
+    "backend": "cd Backend && npm run dev",
+    "start": "concurrently \"npm run frontend\" \"npm run backend\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@snowpack/plugin-react-refresh": "^2.5.0",
+    "concurrently": "^9.1.0",
+    "kill-port": "^2.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
