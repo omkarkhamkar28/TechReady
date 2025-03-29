@@ -51,7 +51,7 @@ function main() {
   });
 
   app.get("/", (req, res) =>
-    res.send(`Welcome to`)
+    res.send(`Welcome to TechReady`)
   );
 
   //routes
