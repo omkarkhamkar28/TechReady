@@ -29,7 +29,7 @@ const HomePage = () => {
       const checkAccess = async () => {
         try {
           const res = await axios.get(
-            `http://localhost:3001/purchase/check-access/${c._id}/${auth?.user?._id}`
+            `https://tr-backend-epqk.onrender.com/purchase/check-access/${c._id}/${auth?.user?._id}`
           );
           setHasAccess(res.data.purchase);
         } catch (err) {
@@ -54,7 +54,7 @@ const HomePage = () => {
   const getCourses = async () => {
 
     try {
-      const { data } = await axios.get(`http://localhost:3001/course/get-courses`);
+      const { data } = await axios.get(`https://tr-backend-epqk.onrender.com/course/get-courses`);
       setCourses(data.courses);
 
     }
