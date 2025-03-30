@@ -22,7 +22,7 @@ const Register = () => {
     console.log("Submitting Form:", { name, email, password, phone, answer });
   
     try {
-      const res = await axios.post(`http://localhost:3001/auth/register`, {
+      const res = await axios.post(`https://tr-backend-epqk.onrender.com/auth/register`, {
         name,
         email,
         password,
