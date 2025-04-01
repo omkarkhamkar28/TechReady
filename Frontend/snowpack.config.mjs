@@ -1,29 +1,21 @@
 /** @type {import("snowpack").SnowpackUserConfig } */
 export default {
   mount: {
-    src: "/src/",  // Mount the 'src' folder
-    public: "/",   // Public folder for hot reload
+    src: "/dist/",
+    public: "/",
   },
-  plugins: ['@snowpack/plugin-react-refresh'], // React hot refresh plugin
+  plugins: [],
   routes: [
     // Enable an SPA Fallback in development
-    {
-      match: "routes",
-      src: ".*",
-      dest: "/index.html",
-    },
+    // {"match": "routes", "src": ".*", "dest": "/index.html"},
   ],
-  optimize: {
-    bundle: true,
-    minify: true,
-    target: 'es2020',  // Settings for bundling and optimization
-  },
+  optimize: {},
   packageOptions: {},
   devOptions: {
-    port: 8080,  // Development server port
+    port: 8080,
   },
   buildOptions: {},
   env: {
-    SNOWPACK_PUBLIC_API: "http://localhost:3001",  // API URL
+    SNOWPACK_PUBLIC_API: "http://localhost:3001",
   },
 };
