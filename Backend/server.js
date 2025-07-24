@@ -31,12 +31,7 @@ function main() {
   let port = process.env.PORT || 3000;
 
   //provide middle wares
-   app.use(
-    cors({
-      origin: "*"
-    })
-  );
-
+  app.use(cors());
   app.use(express.json());
   app.use(morgan('dev'));
   app.use("/upload", express.static(path.join(__dirname, "upload")));  // Correct Static Path
