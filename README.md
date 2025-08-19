@@ -14,7 +14,7 @@ It provides structured programming tutorials, real-world project insights, and s
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/65780809-1b0b-40ba-b607-8c0692547ecc" width="800"/>
-  <br><em>📌 Course Module Page</em>
+  <br><em>📌 Profile </em>
 </p>
 
 <p align="center">
@@ -24,17 +24,17 @@ It provides structured programming tutorials, real-world project insights, and s
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/dc307316-9bb7-41b6-ab0a-e1caad860496" width="800"/>
-  <br><em>📌 Progress Tracking</em>
+  <br><em>📌 Mock Test</em>
 </p>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/93c441a4-2267-4252-b1a8-12602485187d" width="800"/>
-  <br><em>📌 Responsive Design</em>
+  <br><em>📌 Course Details</em>
 </p>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/5228669d-286d-42e4-b516-97656610334d" width="800"/>
-  <br><em>📌 Authentication Flow</em>
+  <br><em>📌 Admin Profile</em>
 </p>
 
 ---
@@ -50,7 +50,7 @@ It provides structured programming tutorials, real-world project insights, and s
 
 ## 🛠️ Tech Stack  
 
-- **Frontend:** React.js, Bootstrap, TailwindCSS  
+- **Frontend:** React.js, Bootstrap,   
 - **Backend:** Node.js, Express.js  
 - **Database:** MongoDB  
 - **Language:** JavaScript (ES6+), HTML, CSS  
@@ -65,6 +65,11 @@ It provides structured programming tutorials, real-world project insights, and s
 ✔️ Progress Tracking System  
 ✔️ Mobile Responsive Design  
 ✔️ Modern UI with TailwindCSS  
+
+---
+
+## 🌍 Live Demo  
+👉 [Click here to explore TechReady](https://techready-web.netlify.app/)
 
 ---
 
