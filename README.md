@@ -69,9 +69,10 @@ It provides structured programming tutorials, real-world project insights, and s
 ---
 
 ## 🌍 Live Demo  
-👉 [Click here to explore TechReady](https://techready-web.netlify.app/)
+👉 [Click here...](https://techready-web.netlify.app/)
 
 ---
 
-## 🔖 Hashtag  
-`#TechReady`  
+## 🔖 Hashtags  
+`#TechReady` `#MERN` `#MongoDB` `#ExpressJS` `#ReactJS` `#NodeJS` `#FullStackDevelopment` `#WebDevelopment` `#JavaScript`
+
